@@ -1,4 +1,4 @@
-# release-bot-cli
+# 🤖 release-bot-cli
 
 A simple Node.js CLI to generate **Notion-ready changelogs** from GitHub PRs and commits.
 It can also call OpenAI to produce clean narrative sections (Major features, Risks, etc.).
