@@ -1,0 +1,18 @@
+{
+  "name": "release-bot-cli",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "releasebot": "./bin/releasebot.mjs"
+  },
+  "scripts": {
+    "start": "node ./bin/releasebot.mjs"
+  },
+  "dependencies": {
+    "@octokit/rest": "^21.0.0",
+    "commander": "^12.1.0",
+    "enquirer": "^2.4.1",
+    "openai": "^4.56.0",
+    "simple-git": "^3.27.0"
+  }
+}
